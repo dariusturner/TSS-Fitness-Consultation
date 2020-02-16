@@ -11,7 +11,7 @@ export default function Footer() {
     }
     return (
         <div id="footer" style={footerStyle}>
-            <div class="credit">
+            <div className="credit">
             <p>TSS Consulting <span style={copyRightColor}>©2020</span></p>
             </div>
         </div>

@@ -31,7 +31,7 @@ a {
   }
 }
 
-/* MainImage Component*/
+/* MainImage Component */
 #main {
   max-height: 105vh;
   overflow: hidden;
@@ -95,6 +95,6 @@ a {
 
 @media screen and (max-width: 740px) {
   #plans .plan-section {
-    background-attachment: none;
+    background: none;
   }
 }
