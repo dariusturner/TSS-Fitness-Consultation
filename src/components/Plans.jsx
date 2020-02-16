@@ -1,19 +1,30 @@
 import React from 'react';
 
-let styles = {
+const mainStyles = {
     color: "#fff",
     marginTop: "50px",
+    overflow: "hidden",
     textAlign: "center"
 }
 
-let titleStyle = {
+const titleStyle = {
+    background: "rgba(30, 30, 30, 0.4)",
+    marginBottom: "0",
+    padding: "30px 0",
     fontSize: "40px"
+}
+
+const planStyle = {
+    minHeight: "60vh"
 }
 
 function Plans() {
     return (
-        <div id="plans" style={styles}>
-            <h2 className="title" style={titleStyle}>Plans</h2>
+        <div id="plans" style={mainStyles}>
+            <h2 className="title" style={titleStyle}>Our Plans</h2>
+            <div className="plan-section" style={planStyle}>
+
+            </div>
         </div>
     )
 }

@@ -85,3 +85,16 @@ a {
     left: 33%;
   }
 }
+
+/* Plans Component */
+#plans .plan-section {
+  background-image: url("./images/weights.jpg");
+  background-position: top center;
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 740px) {
+  #plans .plan-section {
+    background-attachment: none;
+  }
+}
